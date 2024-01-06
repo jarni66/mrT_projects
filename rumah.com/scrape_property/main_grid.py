@@ -9,7 +9,7 @@ import json
 from prop_func import *
 import concurrent.futures
 from selenium.webdriver import DesiredCapabilities
-import tqdm
+
 
 with open('miss_phone.json') as f:
     out = json.load(f)
